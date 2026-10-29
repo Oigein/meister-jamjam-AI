@@ -1,0 +1,307 @@
+{
+  "version": "bssm-2026-grade2-v1",
+  "academic_year": 2026,
+  "student_grade": 2,
+  "source_document": "2026학년도 마이스터 역량 인증제 세부 기준(2학년).hwpx",
+  "description": "사용자가 제공한 학교 기준에서 배점이 명확한 증빙 항목만 반영. 누적·재학 조건과 원본 확인은 교사 검토 필요. 미지원 항목은 점수를 추정하지 않음.",
+  "rules": [
+    {
+      "id": "BSSM_2026_G2_2_2_EXTERNAL",
+      "score_type": "MAJOR_SKILL",
+      "item": "과정평가형 정보처리산업기사 외부평가",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "정보처리산업기사"
+      ],
+      "points": 9,
+      "max_points": 9,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-2. 과정평가형 자격증 외부평가",
+      "review_checks": [
+        "CHECK_INTERNAL_ASSESSMENT"
+      ],
+      "required_text_keywords": [
+        "과정평가형"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_FUNCTIONAL",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 기능사 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "정보처리기능사"
+      ],
+      "points": 7,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP",
+        "CHECK_HRD_CATEGORY"
+      ],
+      "issuer_keywords": [
+        "한국산업인력공단"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_LPIC",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "LPIC"
+      ],
+      "points": 10,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_CISCO",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "CCNA",
+        "CCNP"
+      ],
+      "points": 10,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_JAVA",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "OCPJ",
+        "SCJP"
+      ],
+      "points": 10,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_ORACLE",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "OCA",
+        "OCP"
+      ],
+      "points": 10,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_MCITP",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "MCITP"
+      ],
+      "points": 10,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_COMPUTER_LEVEL2",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "컴퓨터활용능력2급",
+        "컴퓨터활용2급"
+      ],
+      "points": 5,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_LINUX_LEVEL2",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "리눅스마스터2급"
+      ],
+      "points": 5,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_SQLD",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "SQLD"
+      ],
+      "points": 5,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_AZ900",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "AZ-900"
+      ],
+      "points": 5,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    },
+    {
+      "id": "BSSM_2026_G2_CERT_WORD",
+      "score_type": "MAJOR_SKILL",
+      "item": "전공 관련 자격증 취득",
+      "document_type": "CERTIFICATE",
+      "title_keywords": [
+        "워드프로세서"
+      ],
+      "points": 3,
+      "max_points": 30,
+      "required_fields": [
+        "title",
+        "recipient_name",
+        "issuer",
+        "issued_date"
+      ],
+      "example_only": false,
+      "source_section": "2-3. 전공 관련 자격증",
+      "review_checks": [
+        "CHECK_ENROLLMENT",
+        "CHECK_CERTIFICATE_CAP"
+      ]
+    }
+  ],
+  "certificate_keywords": [
+    "TOPCIT",
+    "한국사능력검정시험",
+    "한국사",
+    "한자",
+    "TOEIC",
+    "토익",
+    "TOEIC Speaking",
+    "토익스피킹",
+    "HSK",
+    "JLPT"
+  ]
+}

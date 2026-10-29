@@ -1,0 +1,28 @@
+# Separate web prototype
+/bssm-meister/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local runtime data and API smoke-test results
+**/data/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Editor / OS artifacts
+.DS_Store
+.idea/
+.vscode/
